@@ -1,0 +1,247 @@
+{
+  "at": "2026-10-25T12:31:39.359Z",
+  "machine": "Tencent Cloud CVM",
+  "os": "Windows 11 Pro 10.0.26300",
+  "browser": "Chrome 155.0.8059.40",
+  "source": {
+    "file": "synthetic-test.mp4",
+    "bytes": 61112,
+    "sha256": "cc63c5b557b35206cde3beebbdbc757b5f19b2e95e1a6e9e7895300c8fe5ab39",
+    "generator": "FFmpeg testsrc2=size=640x360:rate=2:duration=3; libx264; yuv420p",
+    "ownership": "Generated locally; synthetic SDR test pattern",
+    "frames": 6,
+    "duration": 3
+  },
+  "method": "All files saved by browser download controls. Decoded to RGB24 with the same FFmpeg binary. Baseline is this page PNG at the corresponding source frame. MAE=sum(abs(candidateRGB-baselineRGB))/(width*height*3). Mean RGB delta=sum(candidateChannel-baselineChannel)/(width*height). This measures file pixel differences, not display colorimetry or absolute fidelity. Frame Extractor displayed 0.052/1.072/2.061 seconds; VidShift displayed 0/1/2. Frame identities must be interpreted with this limitation.",
+  "ffmpeg": "ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers\r",
+  "rows": [
+    {
+      "tool": "PickVideoFrame",
+      "time": 0,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 58041,
+      "sha256": "4a56a612cdaccdbd5fdb50d54ef7572a15530996042b9fd63bb6c3abeaf23288",
+      "differentPixels": 0,
+      "mae": 0,
+      "maxChannelDifference": 0,
+      "meanRGBDelta": [
+        0,
+        0,
+        0
+      ],
+      "file": "images/pickvideoframe-0.png"
+    },
+    {
+      "tool": "PickVideoFrame",
+      "time": 0,
+      "format": "JPG quality 0.95",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 26390,
+      "sha256": "9bdb06c508718500cbbfbdf702119411222378cf76f4df9b351f61bfcef05a10",
+      "differentPixels": 229317,
+      "mae": 0.9275810185185185,
+      "maxChannelDifference": 39,
+      "meanRGBDelta": [
+        -0.3015451388888889,
+        -0.9951909722222222,
+        -0.4907986111111111
+      ],
+      "file": "images/pickvideoframe-0.jpg"
+    },
+    {
+      "tool": "Frame Extractor",
+      "time": 0,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 59010,
+      "sha256": "8058bee3f57f0a3339d8f9d79d36d89ac414c0335457d2a4d168ecb74c5cb3b6",
+      "differentPixels": 230243,
+      "mae": 8.508752893518519,
+      "maxChannelDifference": 40,
+      "meanRGBDelta": [
+        -0.04154513888888889,
+        1.0447222222222223,
+        0
+      ],
+      "file": "images/frame-extractor-0.png"
+    },
+    {
+      "tool": "VidShift",
+      "time": 0,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 59010,
+      "sha256": "8058bee3f57f0a3339d8f9d79d36d89ac414c0335457d2a4d168ecb74c5cb3b6",
+      "differentPixels": 230243,
+      "mae": 8.508752893518519,
+      "maxChannelDifference": 40,
+      "meanRGBDelta": [
+        -0.04154513888888889,
+        1.0447222222222223,
+        0
+      ],
+      "file": "images/vidshift-0.png"
+    },
+    {
+      "tool": "PickVideoFrame",
+      "time": 1,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 59731,
+      "sha256": "3d42e52b21dd4172099f7ff8fba5c1e69a3a843e160d9b8ea0f81a8a39dab3b7",
+      "differentPixels": 0,
+      "mae": 0,
+      "maxChannelDifference": 0,
+      "meanRGBDelta": [
+        0,
+        0,
+        0
+      ],
+      "file": "images/pickvideoframe-1.png"
+    },
+    {
+      "tool": "PickVideoFrame",
+      "time": 1,
+      "format": "JPG quality 0.95",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 26621,
+      "sha256": "a2da0c1b87b0b7eb7c9da59f147d3bf3355453760d5c335b16e9546046ed9865",
+      "differentPixels": 229196,
+      "mae": 0.9191290509259259,
+      "maxChannelDifference": 41,
+      "meanRGBDelta": [
+        -0.3317404513888889,
+        -0.9964800347222222,
+        -0.4659288194444444
+      ],
+      "file": "images/pickvideoframe-1.jpg"
+    },
+    {
+      "tool": "Frame Extractor",
+      "time": 1,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 60997,
+      "sha256": "faa17d7aa93d215cd5fe7ec1f158eb0e916589d758a206195da0b5ef127eb2b0",
+      "differentPixels": 230269,
+      "mae": 8.461929976851852,
+      "maxChannelDifference": 40,
+      "meanRGBDelta": [
+        -0.06951822916666667,
+        1.1670355902777778,
+        0
+      ],
+      "file": "images/frame-extractor-1.png"
+    },
+    {
+      "tool": "VidShift",
+      "time": 1,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 60997,
+      "sha256": "faa17d7aa93d215cd5fe7ec1f158eb0e916589d758a206195da0b5ef127eb2b0",
+      "differentPixels": 230269,
+      "mae": 8.461929976851852,
+      "maxChannelDifference": 40,
+      "meanRGBDelta": [
+        -0.06951822916666667,
+        1.1670355902777778,
+        0
+      ],
+      "file": "images/vidshift-1.png"
+    },
+    {
+      "tool": "PickVideoFrame",
+      "time": 2,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 63030,
+      "sha256": "e226e88cef2437557ee4a9e9dfc14e9c7ab52b7e8d5d87bbfed9a2af270ba40d",
+      "differentPixels": 0,
+      "mae": 0,
+      "maxChannelDifference": 0,
+      "meanRGBDelta": [
+        0,
+        0,
+        0
+      ],
+      "file": "images/pickvideoframe-2.png"
+    },
+    {
+      "tool": "PickVideoFrame",
+      "time": 2,
+      "format": "JPG quality 0.95",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 27870,
+      "sha256": "0f710c149bc5e81fdc7484f7d3f41eb6740ae910dbd06a12cd86d42f3028709c",
+      "differentPixels": 229150,
+      "mae": 0.9419444444444445,
+      "maxChannelDifference": 41,
+      "meanRGBDelta": [
+        -0.33359809027777776,
+        -0.9967057291666667,
+        -0.48040798611111113
+      ],
+      "file": "images/pickvideoframe-2.jpg"
+    },
+    {
+      "tool": "Frame Extractor",
+      "time": 2,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 64988,
+      "sha256": "56c0cfee8b204f7824cd201d6c57a36622a086f00c2fc359fd971295757ab072",
+      "differentPixels": 230265,
+      "mae": 8.454036458333333,
+      "maxChannelDifference": 41,
+      "meanRGBDelta": [
+        -0.07461371527777778,
+        1.1865147569444445,
+        0
+      ],
+      "file": "images/frame-extractor-2.png"
+    },
+    {
+      "tool": "VidShift",
+      "time": 2,
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "pixels": 230400,
+      "bytes": 64988,
+      "sha256": "56c0cfee8b204f7824cd201d6c57a36622a086f00c2fc359fd971295757ab072",
+      "differentPixels": 230265,
+      "mae": 8.454036458333333,
+      "maxChannelDifference": 41,
+      "meanRGBDelta": [
+        -0.07461371527777778,
+        1.1865147569444445,
+        0
+      ],
+      "file": "images/vidshift-2.png"
+    }
+  ]
+}
